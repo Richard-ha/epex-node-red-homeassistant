@@ -25,9 +25,9 @@ This repository contains **3 complete, ready-to-use solutions** for fetching EPE
 
 | Solution | Platform | Best For | Link |
 |----------|----------|----------|------|
-| **Solution 1** | ENTSOE-E | Europe-wide data | [View](solutions/solution-1-entsoe/) |
-| **Solution 2** | TenneT (NL) | Dutch market data | [View](solutions/solution-2-tennet/) |
-| **Solution 3** | EPEX Spot | Real-time pricing | [View](solutions/solution-3-epex-spot/) |
+| **Solution 1** | ENTSOE-E | Europe-wide data | [View](solutions/entsoe/) |
+| **Solution 2** | Nordpool (NL) | Dutch market data | [View](solutions/nordpool/) |
+| **Solution 3** | (https://epexprijzen.nl/) | Real-time pricing | [View](epexprijzen/) |
 
 ### Installation (5 Minutes)
 
@@ -41,13 +41,13 @@ This repository contains **3 complete, ready-to-use solutions** for fetching EPE
 
 ## 📋 Features
 
-- 📊 **APEX-CHARTS compatible** - Beautiful, interactive charts
+- 📊 **APEX-CHARTS compatible** - Beautiful, interactive charts (today / tomorrow)
 - 🔄 **Automatic updates** - Configurable refresh intervals
 - 🌍 **Multi-region support** - NL, DE, BE, AT, CH, etc.
 - 🔐 **Secure** - API keys handled safely
 - 📱 **Responsive** - Works on mobile and desktop
 - 🤖 **Automation ready** - Use data in Home Assistant automations
-- 💾 **Persistent data** - Historical price tracking
+- 💾 **Persistent data** - Historical price tracking (in homeassistant)
 
 ---
 
@@ -109,7 +109,7 @@ epex-node-red-homeassistant/
 ### Minimum
 - Home Assistant (2024.1 or later)
 - Node-RED (installed as add-on or standalone)
-- Internet connection for API access
+- Internet connection for API access (GET EPEX data)
 
 ### Optional
 - MQTT Broker (for MQTT integration, skip if using direct entity sensors)
